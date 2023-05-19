@@ -56,7 +56,7 @@ export default {
   box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.015),100px 100px 80px rgba(0, 0, 0, 0.03);
   margin: 2px auto;
   margin-top: 12px;
-  background-color: rgb(150, 0, 135);
+  background-color: #8e88be;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -64,7 +64,7 @@ export default {
 }
 
 .toggle-button:hover{
-  background-color: rgb(96, 1, 86); 
+  background-color: #6d6891; 
   cursor: pointer;
 }
 </style>

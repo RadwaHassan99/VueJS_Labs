@@ -161,10 +161,6 @@ button {
   border: 1px solid rgb(23, 111, 211);
 }
 
-#file {
-  display: none;
-}
-
 .control-btns {
   display: flex;
   justify-content: space-around;
