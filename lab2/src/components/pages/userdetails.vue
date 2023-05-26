@@ -1,13 +1,13 @@
 <template>
-  <div class="w-50" style="margin: 10px auto; padding: 5%;">
+  <div class="w-25" style="margin: 10px auto; padding-top: 15%;">
     <div class="card custom-card">
       <h1>User Details</h1>
       <hr/>
       <div>
         <p class="card-title">ID:{{ id }}</p>
-        <p class="card-title">First Nmae:{{ first_name }}</p>
-        <p class="card-title">Last Name{{ last_name }}</p>
-        <p class="card-title">Gender: {{ gender }}</p>
+        <p class="card-text"><strong>First Nmae:</strong>{{ first_name }}</p>
+        <p class="card-text"><strong>Last Name:</strong>{{ last_name }}</p>
+        <p class="card-text"><strong>Gender:</strong> {{ gender }}</p>
         <button class="btn btn-primary" @click="back">Go to Users</button>
       </div>
     </div>

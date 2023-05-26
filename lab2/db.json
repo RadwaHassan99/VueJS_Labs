@@ -4,7 +4,7 @@
       "id": 7,
       "first_name": "Artie",
       "last_name": "McCready",
-      "gender": "Male"
+      "gender": "Female"
     },
     {
       "id": 8,
@@ -14,27 +14,15 @@
     },
     {
       "id": 9,
-      "first_name": "Padriac",
+      "first_name": "Pad",
       "last_name": "Dutnall",
       "gender": "Male"
     },
     {
-      "id": 10,
-      "first_name": "Zenia",
-      "last_name": "Croston",
-      "gender": "Female"
-    },
-    {
-      "id": 11,
-      "first_name": "Raimondo",
-      "last_name": "Naptin",
-      "gender": "Male"
-    },
-    {
-      "id": 23,
-      "first_name": "Sauveur",
-      "last_name": "Pie",
-      "gender": "Male"
+      "first_name": "Radwa",
+      "last_name": "Hassan",
+      "gender": "Female",
+      "id": 10
     }
   ]
 }
