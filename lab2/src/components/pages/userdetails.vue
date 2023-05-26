@@ -1,16 +1,17 @@
 <template>
-  <div>
-    <h1>userdetailsApp</h1>
-    <div class="card" >
-  <div class="card-body">
-    <h5 class="card-title">{{ id }}</h5>
-    <h5 class="card-title">{{ first_name }}</h5>
-    <h5 class="card-title">{{ last_name }}</h5>
-    <h5 class="card-title">{{ gender }}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button  class="btn btn-primary" @click="back">Go to Users</button>
-  </div>
-</div>
+  <div class="w-50" style="margin: 10px auto; padding: 5%;">
+    <div class="card custom-card">
+      <h1>User Details</h1>
+      <hr/>
+      <div>
+        <p class="card-title">ID:{{ id }}</p>
+        <p class="card-title">First Nmae:{{ first_name }}</p>
+        <p class="card-title">Last Name{{ last_name }}</p>
+        <p class="card-title">Gender: {{ gender }}</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-primary" @click="back">Go to Users</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -50,4 +51,32 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.custom-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff4081;
+  border-color: #ff4081;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #ff1f6b;
+  border-color: #ff1f6b;
+}
+</style>

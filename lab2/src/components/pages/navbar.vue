@@ -1,23 +1,32 @@
 <template>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+    <div class="container">
+    <a href="/" class="navbar-brand">
+    <i class="fas fa-blog"></i> &nbsp;
+    <img src="https://img.icons8.com/?size=512&id=8VtIvMYdaITD&format=png" width="50" height="50">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+
+
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <router-link class="nav-link active" aria-current="page" to="/">Users</router-link>
+            <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
         </li>
-        <!-- <li class="nav-item">
-          <router-link class="nav-link active" aria-current="page" to="/users/5">Users details</router-link>
-        </li> -->
-    
-      </ul>
-      
+        <li class="nav-item">
+            <router-link class="nav-link active" aria-current="page" to="/users">Users</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link active" aria-current="page" to="/register">Register</router-link>
+        </li>
+    </ul>
     </div>
-  </div>
+    </div>
 </nav>
+
 </template>
 
 <script>
