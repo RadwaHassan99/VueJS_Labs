@@ -1,6 +1,6 @@
 <template>
   <div class="mt-5 p-5">
-    <div class="table-container">
+    <div class="table-container w-75" style="margin: 0 auto;">
       <h1 class="p-3">Users Table</h1>
       <table class="table table-bordered table-shadow">
         <thead>
@@ -65,6 +65,7 @@ export default {
 <style scoped>  .table-container {
   padding: 10px;
   border: 1px solid #dee2e6;
+  background-color: rgb(222, 232, 255);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
