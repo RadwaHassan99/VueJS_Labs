@@ -8,7 +8,6 @@
         <p class="card-title">First Nmae:{{ first_name }}</p>
         <p class="card-title">Last Name{{ last_name }}</p>
         <p class="card-title">Gender: {{ gender }}</p>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <button class="btn btn-primary" @click="back">Go to Users</button>
       </div>
     </div>
@@ -68,15 +67,5 @@ export default {
   margin-bottom: 20px;
 }
 
-.btn {
-  background-color: #ff4081;
-  border-color: #ff4081;
-  color: #fff;
-  font-size: 16px;
-}
 
-.btn:hover {
-  background-color: #ff1f6b;
-  border-color: #ff1f6b;
-}
 </style>
