@@ -23,6 +23,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   height: 100vh;
-  background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54048.jpg?w=1380&t=st=1685092570~exp=1685093170~hmac=d1bfa797305393c2ebbaf5e89b7b4d24c82926a021f652af48394857343589f0);
+  width: 100%;
+  background-color: rgb(116, 190, 189);
 }
 </style>
