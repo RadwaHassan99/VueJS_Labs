@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 7,
+      "first_name": "Artie",
+      "last_name": "McCready",
+      "gender": "Female"
+    },
+    {
+      "id": 8,
+      "first_name": "Irvine",
+      "last_name": "Christophle",
+      "gender": "Male"
+    },
+    {
+      "id": 10,
+      "first_name": "Radwa",
+      "last_name": "Sadek",
+      "gender": "Female"
+    },
+    {
+      "first_name": "Nor",
+      "last_name": "Mohammed",
+      "gender": "Male",
+      "id": 11
+    }
+  ]
+}
